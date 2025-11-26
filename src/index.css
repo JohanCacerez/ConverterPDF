@@ -1,1 +1,34 @@
 @import "tailwindcss";
+
+@theme {
+  //dark Theme Colors
+  --color-bg-primary-d: #1e1e1e;
+  --color-bg-secondary-d: #252526;
+  --color-container-d: #2d2d2d;
+  --color-text-primary-d: #d4d4d4;
+  --color-text-secondary-d: #a0a0a0;
+  --color-border-d: #3c3c3c;
+  --color-accent-d: #3794ff;
+  --color-success-d: #4ec9b0;
+  --color-error-d: #f44747;
+  --color-warning-d: #ff8800;
+
+  //light Theme Colors
+  --color-bg-primary-l: #ffffff;
+  --color-bg-secondary-l: #f2f2f2;
+  --color-container-l: #ededed;
+  --color-text-primary-l: #333333;
+  --color-text-secondary-l: #6f6f6f;
+  --color-border-l: #d0d0d0;
+  --color-accent-l: #0066bf;
+  --color-success-l: #16825d;
+  --color-error-l: #c72e2e;
+  --color-warning-l: #b89500;
+
+  fontFamily: {
+    sans: "Inter, sans-serif",             /* Texto general */
+    title: "Fira Sans, sans-serif",        /* Títulos */
+    ui: "Roboto, sans-serif",              /* Botones, inputs, labels */
+    mono: "Fira Code, monospace",          /* Código, logs, paths */
+  }
+}
